@@ -1,3 +1,91 @@
 .projects-container {
-  padding: 50px;
+  padding: 80px 50px;
+}
+
+img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+#container {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #bacdd8;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.tag {
+  padding: 4px 8px;
+  margin-right: 8px;
+  border: 1px solid #a59fce;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #788697;
+}
+
+.tag:hover {
+  background-color: #a59fce;
+  cursor: pointer;
+  color: white;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+.name:hover {
+  cursor: pointer;
+  color: #323840;
+}
+
+button {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  background: #a59fce;
+  border-radius: 10px;
+  border: 2px solid #a59fce;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+button:focus,
+button:hover {
+  color: #a59fce;
+  background: transparent;
+  transition: 0.5s;
+}
+
+.card-details {
+  padding: 16px;
+}
+
+.description {
+  padding: 10px 0px;
+  font-size: 15px;
+  line-height: 150%;
+  color: #212529;
+}
+
+.preview {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .preview {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

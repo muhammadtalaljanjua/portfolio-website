@@ -4,8 +4,8 @@ import "./home.styles.css";
 const Home = () => {
   return (
     <>
-      <section class="container-fluid main-box">
-        <div class="row align-items-center">
+      <section className="container-fluid main-box">
+        <div className="row align-items-center">
           <div className="col-md-6 col-12 order-2 order-md-1">
             <h1 className="name-heading">
               Hi, I'm <span className="colored-name-heading">Muhammad Talal</span>
@@ -15,28 +15,28 @@ const Home = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. A esse totam provident
               voluptas similique. Impedit incidunt atque recusandae rem quam.
             </p>
-            <div class="btn-group">
-              <a href="#">Hire Me</a>
+            <div className="btn-group">
+              <a href="#">Contact Me</a>
               <a href="#">See Projects</a>
             </div>
-            <div class="social-icons">
+            <div className="social-icons">
               <a href="#">
-                <i class="fa-brands fa-linkedin-in"></i>
+                <i className="fa-brands fa-linkedin-in"></i>
               </a>
               <a href="#">
-                <i class="fa-brands fa-facebook-f"></i>
+                <i className="fa-brands fa-facebook-f"></i>
               </a>
               <a href="#">
-                <i class="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-twitter"></i>
               </a>
               <a href="#">
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
               </a>
               <a href="#">
-                <i class="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-instagram"></i>
               </a>
               <a href="#">
-                <i class="fa-brands fa-whatsapp"></i>
+                <i className="fa-brands fa-whatsapp"></i>
               </a>
             </div>
           </div>
