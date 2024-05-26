@@ -1,11 +1,11 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./components/Header/Header";
+import Header from "./components/Header/header.component";
 import Footer from "./components/Footer/Footer";
-import Home from "./components/Home/Home";
+import Home from "./components/Home/home.component";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
-import Playlist from "./components/Playlist";
+import Projects from "./components/Projects/projects.component";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="playlist" element={<Playlist />} />
+        <Route path="projects" element={<Projects />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
       </Routes>

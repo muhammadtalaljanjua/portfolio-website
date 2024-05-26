@@ -1,5 +1,4 @@
-.home {
-  /* height: 80vh; */
+.main-box {
   padding: 100px 50px;
 }
 
@@ -11,20 +10,20 @@
   background-position: center;
 }
 
-h1 {
+.name-heading {
   font-size: 3em;
 }
 
-h1 span {
+.colored-name-heading {
   color: #a59fce;
 }
 
-h4 {
+.sub-heading {
   font-size: 1.5em;
 }
 
-p {
-  padding: 10px 0 40px 0;
+.summary {
+  padding: 10px 0 20px 0;
 }
 
 .btn-group a {
