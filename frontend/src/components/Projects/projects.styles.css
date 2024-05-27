@@ -10,8 +10,8 @@ img {
 
 #container {
   margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card {
@@ -37,10 +37,20 @@ img {
   color: white;
 }
 
+.projects-heading {
+  font-size: 3em;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
 .name {
   font-size: 24px;
   font-weight: 700;
   margin-top: 16px;
+}
+
+.colored-projects-heading {
+  color: #a59fce;
 }
 
 .name:hover {
@@ -88,4 +98,12 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+.loader-box {
+  height: 40vh;
+}
+
+.loader {
+  color: #a59fce;
 }

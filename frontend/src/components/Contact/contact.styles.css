@@ -1,0 +1,13 @@
+.contact-container {
+  padding: 80px 50px;
+}
+
+.contact-heading {
+  font-size: 3em;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.colored-contact-heading {
+  color: #a59fce;
+}

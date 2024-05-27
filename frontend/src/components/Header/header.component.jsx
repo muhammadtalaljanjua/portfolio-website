@@ -8,7 +8,7 @@ import "./header.styles.css";
 const Header = () => {
   return (
     <>
-      <Navbar bg="light" data-bs-theme="light" className="header">
+      <Navbar sticky="top" bg="light" data-bs-theme="light" className="header">
         <Container className="justify-content-center">
           <div>
             <Nav>

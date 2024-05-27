@@ -1,20 +1,27 @@
 .main-box {
-  padding: 100px 50px;
+  padding: 50px;
 }
 
-.bg {
+.column-1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.column-2 {
   height: 60vh;
-  background: url("../../assets/profile-pic.png");
+  background: url("../../../public/assets/profile-pic.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.name-heading {
+.title-heading {
   font-size: 3em;
 }
 
-.colored-name-heading {
+.colored-title-heading {
   color: #a59fce;
 }
 
