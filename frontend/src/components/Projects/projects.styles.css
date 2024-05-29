@@ -2,7 +2,7 @@
   padding: 80px 50px;
 }
 
-img {
+.card-image {
   width: 100%;
   border-radius: 12px;
   object-fit: cover;
@@ -58,7 +58,7 @@ img {
   color: #323840;
 }
 
-button {
+.read-more {
   color: #fff;
   text-decoration: none;
   padding: 10px 20px;
@@ -69,8 +69,8 @@ button {
   transition: 0.3s;
 }
 
-button:focus,
-button:hover {
+.read-more:focus,
+.read-more:hover {
   color: #a59fce;
   background: transparent;
   transition: 0.5s;
@@ -101,9 +101,13 @@ button:hover {
 }
 
 .loader-box {
-  height: 40vh;
+  height: 30vh;
 }
 
 .loader {
   color: #a59fce;
+}
+
+.codeImage {
+  width: 100px;
 }

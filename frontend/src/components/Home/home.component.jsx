@@ -3,6 +3,10 @@ import { NavLink } from "react-router-dom";
 import "./home.styles.css";
 
 const Home = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <section className="container-fluid main-box">
@@ -18,8 +22,12 @@ const Home = () => {
               connect and discuss how I can add value to your team.
             </p>
             <div className="btn-group">
-              <NavLink to="contact">Contact Me</NavLink>
-              <NavLink to="projects">See Projects</NavLink>
+              <NavLink onClick={scrollToTop} to="contact">
+                Get In Touch
+              </NavLink>
+              <NavLink onClick={scrollToTop} to="projects">
+                Explore My Work
+              </NavLink>
             </div>
             <div className="social-icons">
               <a href="https://www.linkedin.com/in/talal-janjua" target="_blank">

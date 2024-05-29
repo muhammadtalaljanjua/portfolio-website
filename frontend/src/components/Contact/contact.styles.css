@@ -11,3 +11,33 @@
 .colored-contact-heading {
   color: #a59fce;
 }
+
+.chatImage {
+  text-align: center;
+  width: 100px;
+}
+
+.submit-button {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 40px;
+  background: #a59fce;
+  border-radius: 10px;
+  border: 2px solid #a59fce;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  color: #a59fce;
+  background: transparent;
+  border-radius: 10px;
+  border: 2px solid #a59fce;
+}
+
+.submit-button:focus {
+  color: #fff;
+  background: #a59fce;
+  border-radius: 10px;
+  border: 2px solid #a59fce;
+}

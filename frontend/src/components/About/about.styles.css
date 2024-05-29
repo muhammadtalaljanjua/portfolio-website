@@ -1,0 +1,71 @@
+.about-container {
+  padding: 80px 50px;
+}
+
+.image-container {
+  height: 90vh;
+  background: url("../../../public/assets/about.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.about-heading {
+  font-size: 3em;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.title-heading {
+  font-size: 2em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.acc-title {
+  font-size: 30px;
+}
+
+.outer-box {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.collection {
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.collection:hover {
+  cursor: pointer;
+  box-shadow: rgba(165, 159, 206, 1) 0px 2px 8px 0px;
+}
+
+@media (max-width: 768px) {
+  .outer-box {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+  }
+  .title-heading {
+    text-align: center;
+  }
+}
+
+.logos {
+  max-width: 30px;
+}
+
+.inner-heading {
+  padding-left: 10px;
+  font-size: 22px;
+  font-weight: 400;
+}
