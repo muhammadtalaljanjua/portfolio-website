@@ -36,7 +36,7 @@ const Projects = () => {
               {projects.map((element) => {
                 return (
                   <>
-                    <div key={element.id} id="container">
+                    <div id="container" key={element.id}>
                       <div className="card">
                         <img
                           className="card-image"
