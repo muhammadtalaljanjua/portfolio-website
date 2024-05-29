@@ -1,15 +1,11 @@
 {
-  "name": "portfolio-website",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "my-monorepo",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "build": "npm run build --workspace=frontend"
+  }
 }
