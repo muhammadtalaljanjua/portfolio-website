@@ -29,6 +29,7 @@
   font-size: 12px;
   font-weight: 500;
   color: #a59fce;
+  white-space: nowrap;
 }
 
 .tag:hover {
@@ -93,17 +94,6 @@
   column-gap: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-  .preview {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .projects-container {
-    padding: 50px 30px;
-  }
-}
-
 .loader-box {
   height: 30vh;
 }
@@ -114,4 +104,15 @@
 
 .codeImage {
   width: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .preview {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .projects-container {
+    padding: 50px 10px;
+  }
 }
