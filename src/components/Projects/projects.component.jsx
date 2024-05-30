@@ -31,12 +31,12 @@ const Projects = () => {
             <Spinner className="loader" animation="border" /> &nbsp; Loading...
           </div>
         ) : (
-          <div className="row align-items-center">
+          <div className="row">
             <div className="preview">
               {projects.map((element) => {
                 return (
                   <>
-                    <div id="container" key={element.id}>
+                    <div className="container-box" key={element.id}>
                       <div className="card">
                         <img
                           className="card-image"
