@@ -3,35 +3,47 @@ import { NavLink } from "react-router-dom";
 import "./header.styles.css";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNav = () => {
+    setIsOpen(!isOpen);
+  };
+
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
 
-  const [isOpen, setIsOpen] = useState(false);
-  const toggleNav = () => {
-    setIsOpen(!isOpen);
+  const closeNav = () => {
+    setIsOpen(false);
+  };
+
+  const onItemClick = () => {
+    scrollToTop();
+    closeNav();
   };
 
   return (
     <>
       <header>
         <div>
-          <h1 className="logo-heading">
-            Muhammad<span className="logo-colored-heading"> Talal</span>
-          </h1>
+          <NavLink className="logo-link" to="/">
+            <h1 className="logo-heading">
+              Muhammad<span className="logo-colored-heading"> Talal</span>
+            </h1>
+          </NavLink>
         </div>
         <nav>
           <ul className={`nav-link ${isOpen ? "active" : ""}`}>
-            <NavLink onClick={scrollToTop} className="links" to="/">
+            <NavLink onClick={onItemClick} className="links" to="/">
               Home
             </NavLink>
-            <NavLink onClick={scrollToTop} className="links" to="projects">
+            <NavLink onClick={onItemClick} className="links" to="projects">
               Projects
             </NavLink>
-            <NavLink onClick={scrollToTop} className="links" to="about">
+            <NavLink onClick={onItemClick} className="links" to="about">
               About
             </NavLink>
-            <NavLink onClick={scrollToTop} className="links" to="contact">
+            <NavLink onClick={onItemClick} className="links" to="contact">
               Contact
             </NavLink>
           </ul>

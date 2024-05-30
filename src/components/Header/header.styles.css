@@ -64,10 +64,15 @@ header {
   font-size: 2em;
   text-transform: uppercase;
   margin-bottom: 0px;
+  color: #212529;
 }
 
 .logo-colored-heading {
   color: #a59fce;
+}
+
+.logo-link {
+  text-decoration: none;
 }
 
 nav {
