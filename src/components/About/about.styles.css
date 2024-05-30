@@ -66,12 +66,18 @@
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: 1fr;
   }
+
   .title-heading {
     text-align: center;
   }
+
   .image-container {
-    height: 40vh;
+    height: 50vh;
     margin: 0;
+  }
+
+  .about-text {
+    padding: 0% 5%;
   }
 }
 

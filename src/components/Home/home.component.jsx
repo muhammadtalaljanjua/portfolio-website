@@ -36,18 +36,18 @@ const Home = () => {
               <a href="https://www.facebook.com/talal.janjua.2000" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-facebook-f"></i>
               </a>
-              <a href="https://x.com/talal_janjua_" rel="noreferrer" target="_blank">
+              {/* <a href="https://x.com/talal_janjua_" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-twitter"></i>
-              </a>
+              </a> */}
               <a href="https://github.com/muhammadtalaljanjua" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-github"></i>
               </a>
               <a href="https://www.instagram.com/talal_janjua/" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="https://wa.me/923211941854" rel="noreferrer" target="_blank">
+              {/* <a href="https://wa.me/923211941854" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-whatsapp"></i>
-              </a>
+              </a> */}
               <a href="mailto:hafiztalalaqeel1@gmail.com" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-google"></i>
               </a>
