@@ -28,6 +28,7 @@ const Contact = () => {
     emailjs
       .send(serviceId, templateId, templateParameters, publicKey)
       .then((response) => {
+        toast();
         console.log("Email Sent Successfully!");
         setName("");
         setEmail("");
