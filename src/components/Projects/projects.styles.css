@@ -1,5 +1,5 @@
 .projects-container {
-  padding: 80px 40px;
+  padding: 80px 50px;
 }
 
 .card-image {
@@ -28,7 +28,7 @@
   border-radius: 50px;
   font-size: 12px;
   font-weight: 500;
-  color: #788697;
+  color: #a59fce;
 }
 
 .tag:hover {
@@ -97,6 +97,10 @@
   .preview {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .projects-container {
+    padding: 50px 30px;
   }
 }
 
