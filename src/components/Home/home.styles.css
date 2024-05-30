@@ -17,6 +17,12 @@
   margin-bottom: 30px; */
 }
 
+@media (max-width: 768px) {
+  .column-2 {
+    height: 40vh;
+  }
+}
+
 .my-heading {
   font-size: 3em;
 }

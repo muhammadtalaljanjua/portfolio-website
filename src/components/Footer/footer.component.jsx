@@ -9,7 +9,7 @@ const Footer = () => {
           <section className="mb-2">
             <a
               data-mdb-ripple-init
-              className="btn btn-link btn-floating btn-lg text-body m-1"
+              className="btn btn-link btn-floating btn-lg text-body m-1 logo-setting"
               href="https://www.linkedin.com/in/talal-janjua"
               rel="noreferrer"
               target="_blank"
@@ -21,7 +21,7 @@ const Footer = () => {
 
             <a
               data-mdb-ripple-init
-              className="btn btn-link btn-floating btn-lg text-body m-1"
+              className="btn btn-link btn-floating btn-lg text-body m-1 logo-setting"
               href="https://www.facebook.com/talal.janjua.2000"
               rel="noreferrer"
               target="_blank"
@@ -33,7 +33,7 @@ const Footer = () => {
 
             <a
               data-mdb-ripple-init
-              className="btn btn-link btn-floating btn-lg text-body m-1"
+              className="btn btn-link btn-floating btn-lg text-body m-1 logo-setting"
               href="https://x.com/talal_janjua_"
               rel="noreferrer"
               target="_blank"
@@ -45,7 +45,7 @@ const Footer = () => {
 
             <a
               data-mdb-ripple-init
-              className="btn btn-link btn-floating btn-lg text-body m-1"
+              className="btn btn-link btn-floating btn-lg text-body m-1 logo-setting"
               href="https://github.com/muhammadtalaljanjua"
               rel="noreferrer"
               target="_blank"
@@ -57,7 +57,7 @@ const Footer = () => {
 
             <a
               data-mdb-ripple-init
-              className="btn btn-link btn-floating btn-lg text-body m-1"
+              className="btn btn-link btn-floating btn-lg text-body m-1 logo-setting"
               href="https://www.instagram.com/talal_janjua/"
               rel="noreferrer"
               target="_blank"
@@ -69,7 +69,7 @@ const Footer = () => {
 
             <a
               data-mdb-ripple-init
-              className="btn btn-link btn-floating btn-lg text-body m-1"
+              className="btn btn-link btn-floating btn-lg text-body m-1 logo-setting"
               href="https://wa.me/923211941854"
               rel="noreferrer"
               target="_blank"
@@ -81,7 +81,7 @@ const Footer = () => {
 
             <a
               data-mdb-ripple-init
-              className="btn btn-link btn-floating btn-lg text-body m-1"
+              className="btn btn-link btn-floating btn-lg text-body m-1 logo-setting"
               href="mailto:hafiztalalaqeel1@gmail.com"
               rel="noreferrer"
               target="_blank"

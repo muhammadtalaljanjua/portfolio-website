@@ -29,7 +29,7 @@ const Home = () => {
                 Explore My Work
               </NavLink>
             </div>
-            <div className="social-icons">
+            {/* <div className="social-icons">
               <a href="https://www.linkedin.com/in/talal-janjua" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
@@ -51,7 +51,7 @@ const Home = () => {
               <a href="mailto:hafiztalalaqeel1@gmail.com" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-google"></i>
               </a>
-            </div>
+            </div> */}
           </div>
           <div className="col-md-6 col-12 order-1 order-md-2 column-2"></div>
         </div>
