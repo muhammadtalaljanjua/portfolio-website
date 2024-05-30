@@ -30,25 +30,25 @@ const Home = () => {
               </NavLink>
             </div>
             <div className="social-icons">
-              <a href="https://www.linkedin.com/in/talal-janjua" target="_blank">
+              <a href="https://www.linkedin.com/in/talal-janjua" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
-              <a href="https://www.facebook.com/talal.janjua.2000" target="_blank">
+              <a href="https://www.facebook.com/talal.janjua.2000" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-facebook-f"></i>
               </a>
-              <a href="https://x.com/talal_janjua_" target="_blank">
+              <a href="https://x.com/talal_janjua_" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-twitter"></i>
               </a>
-              <a href="https://github.com/muhammadtalaljanjua" target="_blank">
+              <a href="https://github.com/muhammadtalaljanjua" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-github"></i>
               </a>
-              <a href="https://www.instagram.com/talal_janjua/" target="_blank">
+              <a href="https://www.instagram.com/talal_janjua/" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="https://wa.me/923211941854" target="_blank">
+              <a href="https://wa.me/923211941854" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-whatsapp"></i>
               </a>
-              <a href="mailto:hafiztalalaqeel1@gmail.com" target="_blank">
+              <a href="mailto:hafiztalalaqeel1@gmail.com" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-google"></i>
               </a>
             </div>
