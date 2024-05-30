@@ -4,59 +4,38 @@ import Form from "react-bootstrap/Form";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./contact.styles.css";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const [input, setInput] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
-  const handleInput = (event) => {
-    const { name, value } = event.target;
-    setInput(() => {
-      return {
-        ...input,
-        [name]: value,
-      };
-    });
-  };
-
-  const sendUserData = async (event) => {
+  const sendUserData = (event) => {
     event.preventDefault();
 
-    const { name, email, message } = input;
-    if (name == "") {
-      toast.error("Name is Required!");
-    } else if (email == "") {
-      toast.error("Email is Required!");
-    } else if (!email.includes("@")) {
-      toast.error("Invalid Email");
-    } else {
-      const response = await fetch("http://localhost:5555/register", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+    const serviceId = "service_w2sj5h8";
+    const templateId = "template_x5orfqi";
+    const publicKey = "bca66lwwxhG_ApsEF";
 
-        body: JSON.stringify({
-          name,
-          email,
-          message,
-        }),
+    const templateParameters = {
+      from_name: name,
+      from_email: email,
+      to_name: "Muhammad Talal",
+      message: message,
+    };
+
+    emailjs
+      .send(serviceId, templateId, templateParameters, publicKey)
+      .then((response) => {
+        console.log("Email Sent Successfully!");
+        setName("");
+        setEmail("");
+        setMessage("");
+      })
+      .catch((error) => {
+        console.log("Error Sending Email!", error);
       });
-
-      const data = await response.json();
-      if (data.status == 201) {
-        toast.success("Your Response Submitted!");
-        setInput({
-          ...input,
-          name: "",
-          email: "",
-          message: "",
-        });
-      }
-    }
   };
 
   return (
@@ -75,8 +54,8 @@ const Contact = () => {
               <Form.Control
                 type="text"
                 name="name"
-                value={input.name}
-                onChange={handleInput}
+                value={name}
+                onChange={(e) => setName(e.target.value)}
                 required
               />
             </Form.Group>
@@ -85,8 +64,8 @@ const Contact = () => {
               <Form.Control
                 type="email"
                 name="email"
-                value={input.email}
-                onChange={handleInput}
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 required
               />
             </Form.Group>
@@ -96,8 +75,8 @@ const Contact = () => {
                 as="textarea"
                 type="text"
                 rows={4}
-                onChange={handleInput}
-                value={input.message}
+                onChange={(e) => setMessage(e.target.value)}
+                value={message}
                 name="message"
                 required
               />
