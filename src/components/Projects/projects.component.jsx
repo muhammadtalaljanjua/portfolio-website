@@ -47,7 +47,7 @@ const Projects = () => {
                           <div className="card-details">
                             <span className="tag">{element.projectKeyword1}</span>
                             <span className="tag">{element.projectKeyword2}</span>
-                            <span className="tag">{element.projectKeyword3}</span>
+                            <span className="no-tag">{element.projectKeyword3}</span>
                             <div className="name">{element.projectName}</div>
                             <p className="description">{element.projectDescription}</p>
                             <button className="read-more">Read More</button>

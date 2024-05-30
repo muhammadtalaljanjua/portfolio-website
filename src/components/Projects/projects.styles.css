@@ -34,7 +34,19 @@
   white-space: nowrap;
 }
 
-.tag:hover {
+.no-tag {
+  padding: 4px 8px;
+  margin-right: 8px;
+  border: 1px solid #a59fce;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #a59fce;
+  white-space: nowrap;
+}
+
+.tag:hover,
+.no-tag:hover {
   background-color: #a59fce;
   cursor: pointer;
   color: white;
@@ -119,5 +131,8 @@
   }
   .container-box {
     max-width: 80vw;
+  }
+  .no-tag {
+    display: none;
   }
 }

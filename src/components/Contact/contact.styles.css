@@ -18,6 +18,7 @@
 }
 
 .submit-button {
+  width: 100%;
   color: #fff;
   text-decoration: none;
   padding: 10px 40px;

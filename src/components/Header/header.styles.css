@@ -139,7 +139,7 @@ nav {
   transition-property: all;
 }
 
-.nav-link > a .active {
+header > nav > ul > .active {
   color: black;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
