@@ -201,4 +201,8 @@ header > nav > ul > .active {
   .hamburger {
     display: flex;
   }
+
+  header > nav > ul > .active {
+    border: none;
+  }
 }

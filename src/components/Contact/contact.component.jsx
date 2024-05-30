@@ -25,18 +25,26 @@ const Contact = () => {
       message: message,
     };
 
-    emailjs
-      .send(serviceId, templateId, templateParameters, publicKey)
-      .then((response) => {
-        toast();
-        console.log("Email Sent Successfully!");
-        setName("");
-        setEmail("");
-        setMessage("");
-      })
-      .catch((error) => {
-        console.log("Error Sending Email!", error);
-      });
+    if (name === "") {
+      toast.error("Name is Required!");
+    } else if (email === "") {
+      toast.error("Email is Required!");
+    } else if (message === "") {
+      toast.error("Message is Required!");
+    } else {
+      emailjs
+        .send(serviceId, templateId, templateParameters, publicKey)
+        .then((response) => {
+          console.log("Email Sent Successfully!");
+          toast.success("Email Sent Successfully!");
+          setName("");
+          setEmail("");
+          setMessage("");
+        })
+        .catch((error) => {
+          console.log("Error Sending Email!", error);
+        });
+    }
   };
 
   return (
@@ -48,6 +56,7 @@ const Contact = () => {
         <h1 className="contact-heading text-center">
           Contact <span className="colored-contact-heading">Me</span>
         </h1>
+        <p className="contact-text">Have a project in mind? Let's bring it to life together!</p>
         <div className="container mt-2">
           <Form className="row mt-2">
             <Form.Group className="mb-3 col-lg-6">

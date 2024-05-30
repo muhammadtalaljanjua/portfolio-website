@@ -28,6 +28,13 @@
   color: #a59fce;
 }
 
+.about-text {
+  padding: 0% 15%;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
 .acc-title {
   font-size: 30px;
 }

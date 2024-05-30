@@ -29,7 +29,7 @@ const Home = () => {
                 Explore My Work
               </NavLink>
             </div>
-            {/* <div className="social-icons">
+            <div className="social-icons">
               <a href="https://www.linkedin.com/in/talal-janjua" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
@@ -51,9 +51,60 @@ const Home = () => {
               <a href="mailto:hafiztalalaqeel1@gmail.com" rel="noreferrer" target="_blank">
                 <i className="fa-brands fa-google"></i>
               </a>
-            </div> */}
+            </div>
           </div>
           <div className="col-md-6 col-12 order-1 order-md-2 column-2"></div>
+        </div>
+
+        <div className="row hire-section">
+          <div className="col-12 text-center">
+            <h1 className="hire-heading">
+              Hire <span className="my-colored-heading">Me!</span>
+            </h1>
+            <p className="about-text">
+              Looking for a skilled developer? <br /> Check out my
+              <span className="my-colored-heading"> Upwork</span> and
+              <span className="my-colored-heading"> Fiverr</span> profiles!
+            </p>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-md-6 col-12 profile-box">
+            <div className="social-card">
+              <div className="content">
+                <img className="img" src={require("./upwork.png")} alt="Upwork Logo" />
+                <p className="para">
+                  Looking for a reliable and skilled developer to bring your ideas to life? Check
+                  out my Upwork profile to see my projects portfolio. Let's collaborate and make
+                  your project a success!
+                </p>
+                <a
+                  href="https://www.upwork.com/freelancers/~0111643175d390076b"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <button className="profile-button">Go To Profile</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-6 col-12 profile-box">
+            <div className="social-card">
+              <div className="content">
+                <img className="img" src={require("./fiverr.png")} alt="Fiverr Logo" />
+                <p className="para">
+                  Need high-quality web development services with a quick turnaround? Visit my
+                  Fiverr profile to explore my gigs and place an order. Let's get started on your
+                  project today!
+                </p>
+                <a href="https://www.fiverr.com/talal_janjua" rel="noreferrer" target="_blank">
+                  <button className="profile-button">Go To Profile</button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>

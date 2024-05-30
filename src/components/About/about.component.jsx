@@ -12,6 +12,10 @@ const About = () => {
             <h1 className="about-heading">
               About <span className="colored-projects-heading">Myself</span>
             </h1>
+            <p className="about-text">
+              I believe in the power of web development to tell stories, engage users, and create
+              meaningful online experiences.
+            </p>
           </div>
         </div>
         <div className="row ">
