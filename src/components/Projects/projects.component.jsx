@@ -31,31 +31,33 @@ const Projects = () => {
             <Spinner className="loader" animation="border" /> &nbsp; Loading...
           </div>
         ) : (
-          <div className="row">
-            <div className="preview">
-              {projects.map((element) => {
-                return (
-                  <>
-                    <div className="container-box" key={element.id}>
-                      <div className="card">
-                        <img
-                          className="card-image"
-                          src={element.projectImage}
-                          alt={`Project ${element.id}`}
-                        />
-                        <div className="card-details">
-                          <span className="tag">{element.projectKeyword1}</span>
-                          <span className="tag">{element.projectKeyword2}</span>
-                          <span className="tag">{element.projectKeyword3}</span>
-                          <div className="name">{element.projectName}</div>
-                          <p className="description">{element.projectDescription}</p>
-                          <button className="read-more">Read More</button>
+          <div className="new">
+            <div className="row">
+              <div className="preview">
+                {projects.map((element) => {
+                  return (
+                    <>
+                      <div className="container-box" key={element.id}>
+                        <div className="card">
+                          <img
+                            className="card-image"
+                            src={element.projectImage}
+                            alt={`Project ${element.id}`}
+                          />
+                          <div className="card-details">
+                            <span className="tag">{element.projectKeyword1}</span>
+                            <span className="tag">{element.projectKeyword2}</span>
+                            <span className="tag">{element.projectKeyword3}</span>
+                            <div className="name">{element.projectName}</div>
+                            <p className="description">{element.projectDescription}</p>
+                            <button className="read-more">Read More</button>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </>
-                );
-              })}
+                    </>
+                  );
+                })}
+              </div>
             </div>
           </div>
         )}

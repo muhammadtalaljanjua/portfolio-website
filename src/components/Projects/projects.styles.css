@@ -88,6 +88,11 @@
   color: #212529;
 }
 
+.new {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
 .preview {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
