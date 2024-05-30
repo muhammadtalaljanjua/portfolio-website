@@ -6,22 +6,26 @@ import { NavLink } from "react-router-dom";
 import "./header.styles.css";
 
 const Header = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <Navbar sticky="top" bg="light" data-bs-theme="light" className="header">
         <Container className="justify-content-center">
           <div>
             <Nav>
-              <NavLink className="links" to="/">
+              <NavLink onClick={scrollToTop} className="links" to="/">
                 Home
               </NavLink>
-              <NavLink className="links" to="projects">
+              <NavLink onClick={scrollToTop} className="links" to="projects">
                 Projects
               </NavLink>
-              <NavLink className="links" to="about">
+              <NavLink onClick={scrollToTop} className="links" to="about">
                 About
               </NavLink>
-              <NavLink className="links" to="contact">
+              <NavLink onClick={scrollToTop} className="links" to="contact">
                 Contact
               </NavLink>
             </Nav>

@@ -12,8 +12,8 @@ const Home = () => {
       <section className="container-fluid main-box">
         <div className="row align-items-center">
           <div className="col-md-6 col-12 order-2 order-md-1 column-1">
-            <h1 className="title-heading">
-              Hi, I'm <span className="colored-title-heading">Muhammad Talal</span>
+            <h1 className="my-heading">
+              Hi, I'm <span className="my-colored-heading">Muhammad Talal</span>
             </h1>
             <h4 className="sub-heading">MERN Stack Developer | WordPress Developer</h4>
             <p className="summary">

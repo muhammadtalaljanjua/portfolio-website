@@ -13,15 +13,15 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  /* margin-top: 30px;
+  margin-bottom: 30px; */
 }
 
-.title-heading {
+.my-heading {
   font-size: 3em;
 }
 
-.colored-title-heading {
+.my-colored-heading {
   color: #a59fce;
 }
 
@@ -71,7 +71,8 @@
   height: 35px;
   background: #a59fce;
   border-radius: 50%;
-  margin-right: 22px;
+  margin-right: 20px;
+  margin-bottom: 20px;
   text-align: center;
   line-height: 35px;
   border: 1px solid #fff;
