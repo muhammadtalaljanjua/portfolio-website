@@ -92,9 +92,9 @@ const Contact = () => {
               />
             </Form.Group>
             <div className="d-flex justify-content-center">
-              <Button className="col-lg submit-button" type="submit" onClick={sendUserData}>
+              <button className="col-lg submit-button" type="submit" onClick={sendUserData}>
                 Send
-              </Button>
+              </button>
             </div>
           </Form>
           <ToastContainer />
