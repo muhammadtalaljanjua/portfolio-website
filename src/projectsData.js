@@ -6,6 +6,7 @@ const projects = [
     projectKeyword1: "WordPress",
     projectKeyword2: "Affiliate Store",
     projectKeyword3: "WooCommerce",
+    detailImage: "https://ibb.co/SXTWDbV",
     projectDescription:
       "Explore our Affiliate Products Store, built on WordPress and featuring over 1500 top-rated affiliate products. Specializing in electronics, gaming, and computer accessories, our store offers unbeatable deals and quality items for tech enthusiasts.",
   },
