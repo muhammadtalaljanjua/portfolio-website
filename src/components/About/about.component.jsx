@@ -23,87 +23,148 @@ const About = () => {
             <h4 className="title-heading">
               <span className="colored-title-heading">01. </span>Education
             </h4>
+
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header className="acc-title">Bachelors</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                  officia deserunt mollit anim id est laborum.
+                  <h3 className="info-title">
+                    <span className="info-color-title">01. </span>Program:
+                  </h3>
+                  <h5 className="info-detail">Bachelors in Computer Science</h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">02. </span>University:
+                  </h3>
+                  <h5 className="info-detail">University of Gujrat, Gujrat, Pakistan</h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">03. </span>Duration:
+                  </h3>
+                  <h5 className="info-detail">September 2019 - September 2023</h5>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>Intermediate</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                  officia deserunt mollit anim id est laborum.
+                  <h3 className="info-title">
+                    <span className="info-color-title">01. </span>Program:
+                  </h3>
+                  <h5 className="info-detail">Pre-Engineering</h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">02. </span>College:
+                  </h3>
+                  <h5 className="info-detail">Punjab College of Science, Gujranwala, Pakistan</h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">03. </span>Duration:
+                  </h3>
+                  <h5 className="info-detail">August 2017 - May 2019</h5>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>Matriculation</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                  officia deserunt mollit anim id est laborum.
+                  <h3 className="info-title">
+                    <span className="info-color-title">01. </span>Group:
+                  </h3>
+                  <h5 className="info-detail">Biology</h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">02. </span>School:
+                  </h3>
+                  <h5 className="info-detail">Allied School, Gujranwala, Pakistan</h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">03. </span>Duration:
+                  </h3>
+                  <h5 className="info-detail">March 2015 - April 2017</h5>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
+
             <h4 className="title-heading">
               <span className="colored-title-heading">02. </span>Work Experience
             </h4>
+
             <Accordion>
               <Accordion.Item eventKey="0">
-                <Accordion.Header>Node Tech Solutions</Accordion.Header>
+                <Accordion.Header className="acc-title">Node Tech Solutions</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                  officia deserunt mollit anim id est laborum.
+                  <h3 className="info-title">
+                    <span className="info-color-title">01. </span>Job Role:
+                  </h3>
+                  <h5 className="info-detail">WordPress & Frontend Developer</h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">02. </span>Job Description:
+                  </h3>
+                  <h5 className="info-detail">
+                    <ul>
+                      <li className="list-style">
+                        Implemented responsive design principles to ensure optimal viewing
+                        experience on various devices.
+                      </li>
+                      <li className="list-style">
+                        Developed custom WordPress websites from scratch based on client
+                        requirements & design mockups.
+                      </li>
+                      <li className="list-style">
+                        Provided ongoing support and maintenance including troubleshooting issues &
+                        implementing updates to ensure optimal functionality.
+                      </li>
+                    </ul>
+                  </h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">03. </span>Employment Period:
+                  </h3>
+                  <h5 className="info-detail">March 2022 - October 2022</h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">04. </span>Company Location:
+                  </h3>
+                  <h5 className="info-detail">Jinnah Road, Gujranwala</h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">05. </span>Company Website:
+                  </h3>
+                  <h5 className="info-detail">
+                    <a className="info-link" href="https://nodetechsolutions.com/">
+                      https://nodetechsolutions.com
+                    </a>
+                  </h5>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>Sentax Lab</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                  officia deserunt mollit anim id est laborum.
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="2">
-                <Accordion.Header>Fiverr</Accordion.Header>
-                <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                  officia deserunt mollit anim id est laborum.
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="3">
-                <Accordion.Header>Upwork</Accordion.Header>
-                <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                  officia deserunt mollit anim id est laborum.
+                  <h3 className="info-title">
+                    <span className="info-color-title">01. </span>Job Role:
+                  </h3>
+                  <h5 className="info-detail">WordPress Developer</h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">02. </span>Job Description:
+                  </h3>
+                  <h5 className="info-detail">
+                    <ul>
+                      <li className="list-style">
+                        Managed multiple WordPress websites, including updates, backups, and
+                        maintenance tasks.
+                      </li>
+                      <li className="list-style">
+                        Designed and developed custom WordPress websites to meet client requirements
+                        and specifications.
+                      </li>
+                    </ul>
+                  </h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">03. </span>Employment Period:
+                  </h3>
+                  <h5 className="info-detail">September 2021 - February 2022</h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">04. </span>Company Location:
+                  </h3>
+                  <h5 className="info-detail">Trade Center, GT Road, Gujranwala</h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">05. </span>Company Website:
+                  </h3>
+                  <h5 className="info-detail">
+                    <a className="info-link" href="http://www.sentaxlab.net/">
+                      http://www.sentaxlab.net
+                    </a>
+                  </h5>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

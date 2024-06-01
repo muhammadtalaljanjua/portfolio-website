@@ -10,7 +10,7 @@ const Projects = () => {
   useEffect(() => {
     setTimeout(() => {
       setSpinner(false);
-    }, 500);
+    }, 1000);
   });
 
   return (

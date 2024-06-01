@@ -35,10 +35,6 @@
   padding-bottom: 20px;
 }
 
-.acc-title {
-  font-size: 30px;
-}
-
 .outer-box {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -90,4 +86,37 @@
   padding-left: 10px;
   font-size: 22px;
   font-weight: 400;
+}
+
+.accordion {
+  --bs-accordion-active-bg: rgba(164, 159, 202, 0.4);
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0 rgba(164, 159, 202, 0.8);
+}
+
+.accordion-button {
+  font-size: 20px;
+}
+
+.info-title {
+  font-size: 18px;
+}
+
+.info-color-title {
+  color: #a59fce;
+}
+
+.info-detail {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.info-link {
+  color: #a59fce;
+}
+
+.list-style {
+  margin-bottom: 8px;
 }
