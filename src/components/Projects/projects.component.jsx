@@ -8,6 +8,10 @@ const Projects = () => {
   const navigate = useNavigate();
   const [spinner, setSpinner] = useState(true);
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   useEffect(() => {
     setTimeout(() => {
       setSpinner(false);
@@ -15,7 +19,7 @@ const Projects = () => {
   });
 
   const handleClick = (value) => {
-    console.log(value);
+    scrollToTop();
     navigate(`/projects/${value.projectName}`, { state: value });
   };
 
