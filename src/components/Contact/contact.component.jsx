@@ -50,7 +50,11 @@ const Contact = () => {
     <>
       <div className="container mb-3 contact contact-container">
         <div className="text-center">
-          <img className="chatImage" src={require("./contact.gif")} alt="Chat GIF" />
+          <img
+            className="chatImage"
+            src={`${process.env.PUBLIC_URL}/assets/contact.gif`}
+            alt="Chat GIF"
+          />
         </div>
         <h1 className="contact-heading text-center">
           Contact <span className="colored-contact-heading">Me</span>

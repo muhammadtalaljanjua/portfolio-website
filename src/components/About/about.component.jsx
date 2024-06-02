@@ -8,7 +8,11 @@ const About = () => {
       <section className="container-fluid about-container">
         <div className="row text-center">
           <div className="col-12">
-            <img className="codeImage" src={require("./about.gif")} alt="Code GIF" />
+            <img
+              className="codeImage"
+              src={`${process.env.PUBLIC_URL}/assets/about.gif`}
+              alt="Code GIF"
+            />
             <h1 className="about-heading">
               About <span className="colored-projects-heading">Myself</span>
             </h1>
@@ -181,59 +185,115 @@ const About = () => {
               <div className="main-div">
                 <div className="outer-box">
                   <div className="collection">
-                    <img className="logos" src={require("./html.png")} alt="Logo 1" />
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/html.webp`}
+                      alt="Logo 1"
+                    />
                     <div className="inner-heading">HTML</div>
                   </div>
                   <div className="collection">
-                    <img className="logos" src={require("./css.png")} alt="Logo 2" />
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/css.webp`}
+                      alt="Logo 2"
+                    />
                     <div className="inner-heading">CSS</div>
                   </div>
                   <div className="collection">
-                    <img className="logos" src={require("./javascript.png")} alt="Logo 3" />
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/javascript.webp`}
+                      alt="Logo 3"
+                    />
                     <div className="inner-heading">JavaScript</div>
                   </div>
                   <div className="collection">
-                    <img className="logos" src={require("./wordpress.png")} alt="Logo 4" />
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/wordpress.webp`}
+                      alt="Logo 4"
+                    />
                     <div className="inner-heading">WordPress</div>
                   </div>
                   <div className="collection">
-                    <img className="logos" src={require("./react.png")} alt="Logo 5" />
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/react.webp`}
+                      alt="Logo 5"
+                    />
                     <div className="inner-heading">React</div>
                   </div>
                   <div className="collection">
-                    <img className="logos" src={require("./node-js.png")} alt="Logo 6" />
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/node-js.webp`}
+                      alt="Logo 6"
+                    />
                     <div className="inner-heading">Node JS</div>
                   </div>
                   <div className="collection">
-                    <img className="logos" src={require("./express.webp")} alt="Logo 7" />
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/express.webp`}
+                      alt="Logo 7"
+                    />
                     <div className="inner-heading">Express</div>
                   </div>
                   <div className="collection">
-                    <img className="logos" src={require("./mongodb.png")} alt="Logo 8" />
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/mongodb.webp`}
+                      alt="Logo 8"
+                    />
                     <div className="inner-heading">MongoDB</div>
                   </div>
                   <div className="collection">
-                    <img className="logos" src={require("./mysql.png")} alt="Logo 9" />
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/mysql.webp`}
+                      alt="Logo 9"
+                    />
                     <div className="inner-heading">MySQL</div>
                   </div>
                   <div className="collection">
-                    <img className="logos" src={require("./canva.png")} alt="Logo 10" />
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/canva.webp`}
+                      alt="Logo 10"
+                    />
                     <div className="inner-heading">Canva</div>
                   </div>
                   <div className="collection">
-                    <img className="logos" src={require("./bootstrap.png")} alt="Logo 11" />
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/bootstrap.webp`}
+                      alt="Logo 11"
+                    />
                     <div className="inner-heading">Bootstrap</div>
                   </div>
                   <div className="collection">
-                    <img className="logos" src={require("./tailwind.png")} alt="Logo 12" />
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/tailwind.webp`}
+                      alt="Logo 12"
+                    />
                     <div className="inner-heading">Tailwind</div>
                   </div>
                   <div className="collection">
-                    <img className="logos" src={require("./github.png")} alt="Logo 13" />
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/github.webp`}
+                      alt="Logo 13"
+                    />
                     <div className="inner-heading">Git/Github</div>
                   </div>
                   <div className="collection">
-                    <img className="logos" src={require("./woocommerce.png")} alt="Logo 14" />
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/woocommerce.webp`}
+                      alt="Logo 14"
+                    />
                     <div className="inner-heading">WooCommerce</div>
                   </div>
                 </div>

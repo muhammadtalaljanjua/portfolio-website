@@ -24,7 +24,11 @@ const Projects = () => {
       <section className="container-fluid projects-container">
         <div className="row text-center">
           <div className="col-12">
-            <img className="codeImage" src={require("./code.gif")} alt="Code GIF" />
+            <img
+              className="codeImage"
+              src={`${process.env.PUBLIC_URL}/assets/code.gif`}
+              alt="Code GIF"
+            />
 
             <h1 className="projects-heading">
               My <span className="colored-projects-heading">Projects</span>

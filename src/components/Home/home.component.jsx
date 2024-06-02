@@ -56,6 +56,132 @@ const Home = () => {
           <div className="col-md-6 col-12 order-1 order-md-2 column-2"></div>
         </div>
 
+        <div className="row text-center skills-box">
+          <div className="col-12">
+            <h1 className="skills-heading">
+              My <span className="my-colored-heading">Expertise</span>
+            </h1>
+            <div className="row">
+              <div className="main-div">
+                <div className="outer-box">
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/html.webp`}
+                      alt="Logo 1"
+                    />
+                    <div className="inner-heading">HTML</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/css.webp`}
+                      alt="Logo 2"
+                    />
+                    <div className="inner-heading">CSS</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/javascript.webp`}
+                      alt="Logo 3"
+                    />
+                    <div className="inner-heading">JavaScript</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/wordpress.webp`}
+                      alt="Logo 4"
+                    />
+                    <div className="inner-heading">WordPress</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/react.webp`}
+                      alt="Logo 5"
+                    />
+                    <div className="inner-heading">React</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/node-js.webp`}
+                      alt="Logo 6"
+                    />
+                    <div className="inner-heading">Node JS</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/express.webp`}
+                      alt="Logo 7"
+                    />
+                    <div className="inner-heading">Express</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/mongodb.webp`}
+                      alt="Logo 8"
+                    />
+                    <div className="inner-heading">MongoDB</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/mysql.webp`}
+                      alt="Logo 9"
+                    />
+                    <div className="inner-heading">MySQL</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/canva.webp`}
+                      alt="Logo 10"
+                    />
+                    <div className="inner-heading">Canva</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/bootstrap.webp`}
+                      alt="Logo 11"
+                    />
+                    <div className="inner-heading">Bootstrap</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/tailwind.webp`}
+                      alt="Logo 12"
+                    />
+                    <div className="inner-heading">Tailwind</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/github.webp`}
+                      alt="Logo 13"
+                    />
+                    <div className="inner-heading">Git/Github</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/woocommerce.webp`}
+                      alt="Logo 14"
+                    />
+                    <div className="inner-heading">WooCommerce</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="row hire-section">
           <div className="col-12 text-center">
             <h1 className="hire-heading">
@@ -73,7 +199,11 @@ const Home = () => {
           <div className="col-md-6 col-12 profile-box">
             <div className="social-card">
               <div className="content">
-                <img className="img" src={require("./upwork.png")} alt="Upwork Logo" />
+                <img
+                  className="img"
+                  src={`${process.env.PUBLIC_URL}/assets/upwork.png`}
+                  alt="Upwork Logo"
+                />
                 <p className="para">
                   Looking for a reliable and skilled developer to bring your ideas to life? Check
                   out my Upwork profile to see my projects portfolio. Let's collaborate and make
@@ -93,7 +223,11 @@ const Home = () => {
           <div className="col-md-6 col-12 profile-box">
             <div className="social-card">
               <div className="content">
-                <img className="img" src={require("./fiverr.png")} alt="Fiverr Logo" />
+                <img
+                  className="img"
+                  src={`${process.env.PUBLIC_URL}/assets/fiverr.png`}
+                  alt="Fiverr Logo"
+                />
                 <p className="para">
                   Need high-quality web development services with a quick turnaround? Visit my
                   Fiverr profile to explore my gigs and place an order. Let's get started on your

@@ -9,7 +9,7 @@
 
 .column-2 {
   height: 60vh;
-  background: url("../../../public/assets/profile-pic.png");
+  background: url("../../../public/assets/home.webp");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -119,6 +119,17 @@
   margin-bottom: 20px;
 }
 
+.skills-heading {
+  font-size: 3em;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.skills-box {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
 .profile-box {
   padding: 40px;
 }
@@ -151,7 +162,7 @@
   flex-direction: column;
   align-items: center;
   /* gap: 24px; */
-  padding: 40px;
+  padding: 60px;
   border-radius: 22px;
   color: black;
   overflow: hidden;
@@ -195,6 +206,8 @@
 }
 
 .content .para {
+  margin-top: 40px;
+  margin-bottom: 40px;
   text-align: center;
   z-index: 1;
   opacity: 1;
@@ -241,12 +254,21 @@
     margin-left: 0px;
   }
 
+  .social-icons {
+    text-align: center;
+  }
+
   .profile-box {
     padding: 20px;
     padding-top: 50px;
   }
 
   .content {
-    padding: 20px !important;
+    padding: 30px !important;
+  }
+
+  .skills-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
