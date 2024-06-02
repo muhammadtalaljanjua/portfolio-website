@@ -1,5 +1,16 @@
 const projects = [
   {
+    id: 101,
+    projectName: "E-Commerce Web Application",
+    projectImage: "./assets/mern-project-1.webp",
+    projectKeyword1: "React",
+    projectKeyword2: "Firebase",
+    projectKeyword3: "Front End",
+    detailImage: "https://i.ibb.co/p4DhXhX/mern-project-1.webp",
+    projectDescription:
+      "Crafted a robust e-commerce web application with React JS, leveraging Firebase for userand products management. Features include intuitive sign-in/sign-up functionalitieswith Google authentication, ensuring secure access for users.",
+  },
+  {
     id: 1,
     projectName: "Affiliate Products Store",
     projectImage: "./assets/project-1.webp",
