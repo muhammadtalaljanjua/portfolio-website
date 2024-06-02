@@ -24,7 +24,7 @@ const Details = () => {
         <img
           className="background-image"
           src={location.state.detailImage}
-          alt="`${location.state.projectName}`"
+          alt={location.state.projectName}
         />
       )}
     </div>
