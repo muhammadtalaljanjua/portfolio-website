@@ -259,10 +259,10 @@ const About = () => {
                   <div className="collection">
                     <img
                       className="logos"
-                      src={`${process.env.PUBLIC_URL}/assets/canva.webp`}
-                      alt="Logo 10"
+                      src={`${process.env.PUBLIC_URL}/assets/firebase.webp`}
+                      alt="Logo 9"
                     />
-                    <div className="inner-heading">Canva</div>
+                    <div className="inner-heading">Firebase</div>
                   </div>
                   <div className="collection">
                     <img
@@ -295,6 +295,14 @@ const About = () => {
                       alt="Logo 14"
                     />
                     <div className="inner-heading">WooCommerce</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/canva.webp`}
+                      alt="Logo 10"
+                    />
+                    <div className="inner-heading">Canva</div>
                   </div>
                 </div>
               </div>
