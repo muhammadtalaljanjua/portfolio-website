@@ -88,6 +88,47 @@ const About = () => {
 
             <Accordion>
               <Accordion.Item eventKey="0">
+                <Accordion.Header className="acc-title">G7 Technologies</Accordion.Header>
+                <Accordion.Body>
+                  <h3 className="info-title">
+                    <span className="info-color-title">01. </span>Job Role:
+                  </h3>
+                  <h5 className="info-detail">MERN Stack Developer</h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">02. </span>Job Description:
+                  </h3>
+                  <h5 className="info-detail">
+                    <ul>
+                      <li className="list-style">
+                        Developed and maintained web applications using the MERN stack.
+                      </li>
+                      <li className="list-style">
+                        Assisted in integrating RESTful APIs for seamless client-server interaction.
+                      </li>
+                      <li className="list-style">
+                        Gained experience with version control systems, particularly Git.
+                      </li>
+                    </ul>
+                  </h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">03. </span>Employment Period:
+                  </h3>
+                  <h5 className="info-detail">May 2024 - Present</h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">04. </span>Company Location:
+                  </h3>
+                  <h5 className="info-detail">Satellite Town, Gujranwala</h5>
+                  <h3 className="info-title">
+                    <span className="info-color-title">05. </span>Company Website:
+                  </h3>
+                  <h5 className="info-detail">
+                    <a className="info-link" href="https://www.g7technologies.com/">
+                      https://www.g7technologies.com
+                    </a>
+                  </h5>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
                 <Accordion.Header className="acc-title">Node Tech Solutions</Accordion.Header>
                 <Accordion.Body>
                   <h3 className="info-title">
@@ -131,7 +172,7 @@ const About = () => {
                   </h5>
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="1">
+              <Accordion.Item eventKey="2">
                 <Accordion.Header>Sentax Lab</Accordion.Header>
                 <Accordion.Body>
                   <h3 className="info-title">
