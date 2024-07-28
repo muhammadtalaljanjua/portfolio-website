@@ -24,23 +24,25 @@
 }
 
 .tag {
+  font-family: "Outfit", "Roboto", "Oxygen";
   padding: 4px 8px;
   margin-right: 8px;
   border: 1px solid #a59fce;
   border-radius: 50px;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 400;
   color: #a59fce;
   white-space: nowrap;
 }
 
 .no-tag {
+  font-family: "Outfit", "Roboto", "Oxygen";
   padding: 4px 8px;
   margin-right: 8px;
   border: 1px solid #a59fce;
   border-radius: 50px;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 400;
   color: #a59fce;
   white-space: nowrap;
 }
@@ -59,6 +61,7 @@
 }
 
 .name {
+  font-family: "Marcellus", "Roboto", "Oxygen";
   font-size: 24px;
   font-weight: 700;
   margin-top: 16px;
@@ -74,6 +77,7 @@
 }
 
 .read-more {
+  font-family: "Outfit", "Roboto", "Oxygen";
   color: #fff;
   text-decoration: none;
   padding: 10px 20px;

@@ -263,7 +263,15 @@ const About = () => {
                       src={`${process.env.PUBLIC_URL}/assets/react.webp`}
                       alt="Logo 5"
                     />
-                    <div className="inner-heading">React</div>
+                    <div className="inner-heading">React JS</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/next.webp`}
+                      alt="Logo 5"
+                    />
+                    <div className="inner-heading">Next JS</div>
                   </div>
                   <div className="collection">
                     <img
@@ -304,6 +312,14 @@ const About = () => {
                       alt="Logo 9"
                     />
                     <div className="inner-heading">Firebase</div>
+                  </div>
+                  <div className="collection">
+                    <img
+                      className="logos"
+                      src={`${process.env.PUBLIC_URL}/assets/prisma.webp`}
+                      alt="Logo 5"
+                    />
+                    <div className="inner-heading">Prisma</div>
                   </div>
                   <div className="collection">
                     <img

@@ -93,7 +93,7 @@ const Footer = () => {
           </section>
         </div>
 
-        <div className="text-center">Designed & Developed by Muhammad Talal</div>
+        <div className="text-center credits">Designed & Developed by Muhammad Talal</div>
       </footer>
     </>
   );

@@ -23,7 +23,13 @@
   padding-bottom: 20px;
 }
 
+.label,
+input {
+  font-family: "Outfit", "Roboto", "Oxygen";
+}
+
 .submit-button {
+  font-family: "Outfit", "Roboto", "Oxygen";
   width: 100%;
   color: #fff;
   text-decoration: none;

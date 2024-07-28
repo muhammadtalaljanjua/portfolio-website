@@ -34,7 +34,6 @@ const Contact = () => {
       emailjs
         .send(serviceId, templateId, templateParameters, publicKey)
         .then((response) => {
-          console.log("Email Sent Successfully!");
           toast.success("Email Sent Successfully!");
           setName("");
           setEmail("");
@@ -63,7 +62,7 @@ const Contact = () => {
         <div className="container mt-2">
           <Form className="row mt-2">
             <Form.Group className="mb-3 col-lg-6">
-              <Form.Label>Your Name</Form.Label>
+              <Form.Label className="label">Your Name</Form.Label>
               <Form.Control
                 type="text"
                 name="name"
@@ -73,7 +72,7 @@ const Contact = () => {
               />
             </Form.Group>
             <Form.Group className="mb-3 col-lg-6">
-              <Form.Label>Your Email</Form.Label>
+              <Form.Label className="label">Your Email</Form.Label>
               <Form.Control
                 type="email"
                 name="email"
@@ -83,7 +82,7 @@ const Contact = () => {
               />
             </Form.Group>
             <Form.Group className="mb-3">
-              <Form.Label>Message</Form.Label>
+              <Form.Label className="label">Message</Form.Label>
               <Form.Control
                 as="textarea"
                 type="text"

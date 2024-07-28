@@ -1,3 +1,13 @@
-* {
-  font-family: Ubuntu, "Roboto", "Oxygen";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Marcellus", "Roboto", "Oxygen";
+}
+
+p,
+button {
+  font-family: "Outfit", "Roboto", "Oxygen";
 }

@@ -16,6 +16,7 @@
 }
 
 .my-heading {
+  font-weight: 600;
   margin-top: 8px;
   font-size: 3em;
 }
@@ -25,14 +26,17 @@
 }
 
 .sub-heading {
-  font-size: 1.5em;
+  font-weight: 500;
+  font-size: 1.55em;
 }
 
 .summary {
+  font-size: 17px;
   padding: 10px 0 20px 0;
 }
 
 .profile-button {
+  font-family: "Outfit", "Roboto", "Oxygen";
   color: #fff;
   text-decoration: none;
   padding: 10px 40px;
@@ -55,6 +59,7 @@
 }
 
 .btn-group a {
+  font-family: "Outfit", "Roboto", "Oxygen";
   color: #fff;
   text-decoration: none;
   padding: 10px 40px;
@@ -231,6 +236,10 @@
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+.inner-heading {
+  font-family: "Outfit", "Roboto", "Oxygen";
 }
 
 @media (max-width: 768px) {
